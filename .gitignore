@@ -9,6 +9,9 @@
 deploy-options.json
 .localdev
 
+# Dependencies
+node_modules/
+
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 
@@ -37,3 +40,11 @@ sfca_results.json
 
 # Local environment variables
 .env
+
+#sfdx randomness
+config/
+scripts/
+
+#VSCode
+.vscode/
+

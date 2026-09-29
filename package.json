@@ -1,0 +1,16 @@
+{
+  "name": "apex-cron-expression-generator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Apex utility for building Salesforce cron expressions",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{cls,trigger,json,md,xml,yaml,yml}\"",
+    "prettier:verify": "prettier --check \"**/*.{cls,trigger,json,md,xml,yaml,yml}\"",
+    "test": "sf apex run test --test-level RunLocalTests --code-coverage --result-format human --wait 20"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-apex": "^2.2.6"
+  }
+}
